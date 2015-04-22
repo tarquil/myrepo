@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Let us do some inline JavaScript</title>
+    <script type="text/javascript">
+      function topMsg() { 
+        alert('Yeah it triggers the top text'); 
+        }
+      function bottomMsg() { 
+        alert('Yeah it triggers the bottom text'); }
+        
+    </script>
+  </head>
+  <body>
+    <p>
+      <a href="#" onClick="topMsg();">Top Text</a>.
+    </p>
+    <p>
+      <a href="javascript:bottomMsg();">Bottom Text</a>
+    </p>
+  </body>
+</html>
